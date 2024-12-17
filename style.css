@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.conrainer {
+ text-align: center;
+
+}
+.btn {
+background-color:blue;
+padding: 15px 30px; 
+color:white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 20PX;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+.btn:hover {
+background-color: coral;
+
+}
+.translucent-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de transparencia */
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+.translucent-box:hover {
+background-color: black;
+
+}
+.flex-section {
+display: flex;
+justify-content:colum;
+gap: 10px;
+width: 45px;
+
+
+}
